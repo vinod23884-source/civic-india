@@ -1,0 +1,46 @@
+export type Language = 'en' | 'hi' | 'mr';
+
+export const TRANSLATIONS = {
+  en: {
+    heroTag: "A People's Movement for Everyday India",
+    heroTitle: "How do you behave when",
+    heroHighlight: "nobody is watching?",
+    heroSub: "Civic sense isn't about rules or policing. It's about noticing how your 2-minute convenience impacts the next person's life.",
+    takeChallenge: "TAKE THE 5-MIN CHALLENGE",
+    movementPledge: "JOIN THE PLEDGE",
+    liveCounter: "Indians have taken the reflection challenge this week",
+    urbanRuralTitle: "Same Principle. Different Reality.",
+    urbanRuralSub: "Civic consciousness applies everywhere — from metro footpaths to village wells.",
+    urbanContext: "City Footpath: Parking a 2-wheeler blocks wheelchairs & strollers into active traffic.",
+    ruralContext: "Village Pathway: Leaving tractors or construction rubble blocks shared cattle & tractor routes.",
+    downloadBadge: "Generate My Citizen Badge",
+  },
+  hi: {
+    heroTag: "एक जन-आंदोलन: जागरूक नागरिक, सशक्त भारत",
+    heroTitle: "आप तब कैसा व्यवहार करते हैं जब",
+    heroHighlight: "कोई आपको नहीं देख रहा?",
+    heroSub: "नागरिक समझ सिर्फ नियमों की बात नहीं है। यह समझने की बात है कि आपकी 2 मिनट की सुविधा किसी और के लिए परेशानी न बने।",
+    takeChallenge: "5 मिनट का चैलेंज शुरू करें",
+    movementPledge: "नागरिक संकल्प लें",
+    liveCounter: "भारतीय इस सप्ताह अपना नागरिक स्कोर देख चुके हैं",
+    urbanRuralTitle: "नियम एक, संदर्भ अनेक",
+    urbanRuralSub: "नागरिक समझ शहर के फुटपाथ से लेकर गांव की चौपाल तक हर जगह जरूरी है।",
+    urbanContext: "शहरी फुटपाथ: बाइक पार्क करने से बुजुर्गों और बच्चों को सड़क पर उतरना पड़ता है।",
+    ruralContext: "ग्रामीण रास्ता: साझा रास्ते पर ट्रैक्टर या मलबा छोड़ने से पूरे गांव का आवागमन रुकता है।",
+    downloadBadge: "अपना नागरिक बैज डाउनलोड करें",
+  },
+  mr: {
+    heroTag: "दैनिक जीवनासाठी एक लोकचळवळ",
+    heroTitle: "जेव्हा कोणी पाहत नसेल तेव्हा",
+    heroHighlight: "तुमचे वर्तन कसे असते?",
+    heroSub: "नागरी जाणीव म्हणजे फक्त नियम पाळणे नव्हे, तर आपल्या २ मिनिटांच्या सोयीमुळे दुसऱ्याला त्रास होणार नाही हे समजून घेणे.",
+    takeChallenge: "५ मिनिटांचे आव्हान सुरू करा",
+    movementPledge: "नागरी प्रतिज्ञा घ्या",
+    liveCounter: "नागरिकांनी या आठवड्यात संकल्प केला आहे",
+    urbanRuralTitle: "तत्व एक, वास्तव वेगळे",
+    urbanRuralSub: "शहरातील पदपथापासून ते गावातील पाणवठ्यापर्यंत सर्वत्र नागरी जाणिवेची गरज आहे.",
+    urbanContext: "शहरी पदपथ: दुचाकी उभी केल्याने पादचाऱ्यांना जीव धोक्यात घालून रस्त्यावर उतरावे लागते.",
+    ruralContext: "गावातील रस्ता: सामायिक रस्त्यावर साहित्य ठेवल्याने शेती व वाहतुकीला अडथळा होतो.",
+    downloadBadge: "माझा नागरिक बॅज तयार करा",
+  }
+};
